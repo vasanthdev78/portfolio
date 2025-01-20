@@ -384,3 +384,8 @@ footer .link-group a:hover{
     color: #fff;
     animation: pulse 3s infinite;
 }
+
+.custom-border {
+    /* border: 2px solid #000; Custom border thickness and color */
+    border-radius: 50px; /* Optional: Rounded corners */
+  }

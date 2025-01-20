@@ -76,36 +76,41 @@
             <li class="nav-item">
               <a class="nav-link" href="#testimonial">Testimonials</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#blog">Blog</a>
-            </li>
+            </li> -->
           </ul>
         </div>
-        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"> <a class="nav-link" href="#contact">Contact</a></button>
       </div>
     </nav>
     <!-- navbar ends here -->
 
     <!-- home section starts  -->
     <section class="home pt-5 pb-5" id="home">
-      <div class="row justify-content-evenly align-middle">
+      <div class="row justify-content-center align-middle">
         <!-- here data-aos is used for adding aos animation  -->
         <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
           <h2 style="color: #3f396d">
             Hello! I Am <br /><span class="c-orange">Vasanth M</span>
           </h2>
           <p class="text-muted">
-            I'm A Web Developer having 1 years of experience in expertise of
+            I'm A Web Developer having 2 years of experience in expertise of
             creating website with fully responsive Also with backend part too.
           </p>
           <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-            Hire Me
+            <a
+                href="Vasanth_Resume.pdf"
+                download="Vasanth_Resume"
+                style="text-decoration: none; color: #fff;" target="_blank"
+              >Hire Me
+              </a>
           </button>
           <a href="" class="link ms-4 d-none">See My Work</a>
         </div>
-        <div class="col-10 col-md-4 d-none d-md-block">
-          <img src="images/image_vasanth5.JPG" class="img-fluid" alt="" />
-        </div>
+        <!-- <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/vasanth_5.JPG" class="img-fluid custom-border" alt="Responsive Image" />
+        </div> -->
       </div>
     </section>
     <!-- home section ends here -->
@@ -262,7 +267,7 @@
               <a
                 href="Vasanth_Resume.pdf"
                 download="Vasanth_Resume"
-                style="text-decoration: none; color: #fff;"
+                style="text-decoration: none; color: #fff;" target="_blank"
               >
                 Download CV
               </a>
@@ -283,27 +288,15 @@
       <div id="myBtnContainer" class="text-center mt-4">
         <!-- here we will create custom attribute using data- for filtering -->
         <button class="filter-item" data-filter="all">All</button>
-        <button class="filter-item" data-filter="game">Game</button>
-        <button class="filter-item" data-filter="webapp">Web App</button>
-        <button class="filter-item" data-filter="website">Website</button>
-        <button class="filter-item" data-filter="brand">Brand</button>
+        <!-- <button class="filter-item" data-filter="game">Game</button> -->
+        <!-- <button class="filter-item" data-filter="webapp">Web App</button> -->
+        <!-- <button class="filter-item" data-filter="website">Website</button> -->
+        <!-- <button class="filter-item" data-filter="brand">Brand</button> -->
       </div>
       <div class="portfolio-body">
         <div class="row justify-content-evenly px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/2048game.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">2048 Game</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">Game</span
-                ><br />
-                <a href="#" class="link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+      
+          <!-- <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
               <img
                 src="images/jeno.png"
@@ -319,27 +312,150 @@
                 <a href="#" class="read-more-btn link">Read More</a>
               </div>
             </div>
-          </div>
 
+            </div> -->
+          
 
-          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          
+          <!-- <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+
             <div class="card">
               <img src="images/internship.png" class="card-img-top" alt="..." />
               <div class="card-body text-center">
                 <h4 class="card-title">Online Student Management App</h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
+                <span class="badge bg-secondary badge-pill mb-2">Php</span
                 ><br />
                 <a href="#" class="read-more-btn link">Read More</a>
               </div>
             </div>
-          </div>
 
+            <div class="card">
+              <img src="images/jewellers.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Aumvallivilas jewellers WebApp</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Php</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="images/erp.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Employee Management System App</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Php</span
+                ><br />
+                <a href="https://erp.inforiya.in/login.php" class="read-more-btn link">Click Me</a>
+              </div>
+            </div>
+
+
+
+
+
+          </div> -->
+          <div class="container mt-3" data-aos="fade-up">
+            <div class="row g-4">
+          
+              <!-- Card 1 -->
+              <div class="col-md-4 col-12">
+                <div class="card">
+                  <img src="images/internship.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Online Student Management App</h4>
+                    <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                    <span class="badge bg-secondary badge-pill">JavaScript</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Php</span><br />
+                    <a href="#" class="read-more-btn link">Read More</a>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 2 -->
+              <div class="col-md-4 col-12">
+                <div class="card">
+                  <img src="images/jewellers.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Aumvallivilas Jewellers WebApp</h4>
+                    <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                    <span class="badge bg-secondary badge-pill">JavaScript</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Php</span><br />
+                    <a href="https://aumvallivilasjewellers.inforiya.in/" class="read-more-btn link">Click Me</a>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 3 -->
+              <div class="col-md-4 col-12">
+                <div class="card">
+                  <img src="images/erp.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Employee Management System App</h4>
+                    <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                    <span class="badge bg-secondary badge-pill">JavaScript</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Php</span><br />
+                    <a href="https://erp.inforiya.in/login.php" class="read-more-btn link">Click Me</a>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 4 -->
+              <div class="col-md-4 col-12">
+                <div class="card">
+                  <img src="images/connect.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Training Center ERP</h4>
+                    <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                    <span class="badge bg-secondary badge-pill">JavaScript</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Php</span><br />
+                    <a href="https://connect.inforiya.in/" class="read-more-btn link">Click Me</a>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 5 -->
+              <div class="col-md-4 col-12">
+                <div class="card">
+                  <img src="images/jeno.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Study Centre ERP</h4>
+                    <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                    <span class="badge bg-secondary badge-pill">JavaScript</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Php</span><br />
+                    <a href="https://connect.inforiya.in/" class="read-more-btn link">Click Me</a>
+                  </div>
+                </div>
+              </div>
+
+
+               <!-- Card 5 -->
+               <div class="col-md-4 col-12">
+                <div class="card">
+                  <img src="images/nexemy.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">E-learning website</h4>
+                    <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                    <span class="badge bg-secondary badge-pill">JavaScript</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Php</span><br />
+                    <a href="https://online.nexemy.com/" class="read-more-btn link">Click Me</a>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          
+          
           
 
         </div>
-        <div class="row justify-content-evenly mt-4 px-4">
+        <!-- <div class="row justify-content-evenly mt-4 px-4">
           <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
               <img src="images/erp.png" class="card-img-top" alt="..." />
@@ -352,9 +468,9 @@
                 <a href="https://erp.inforiya.in/login.php" class="read-more-btn link">Click Me</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <!-- <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
               <img src="images/tictactoe.png" class="card-img-top" alt="..." />
               <div class="card-body text-center">
@@ -366,8 +482,8 @@
                 <a href="#" class="read-more-btn link">Read More</a>
               </div>
             </div>
-          </div>
-          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          </div> -->
+          <!-- <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
               <img
                 src="images/lang-translator.png"
@@ -383,8 +499,8 @@
                 <a href="#" class="read-more-btn link">Read More</a>
               </div>
             </div>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
       </div>
     </section>
     <!-- portfolio section ends here -->
@@ -416,10 +532,10 @@
                       </div>
                       <div class="col-10">
                         <p class="text-muted fs-5">
-                          "Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit."
+                          "The Training Center's ERP system has revolutionized the way we manage students, courses, and resources. The platform is user-friendly, efficient, and has saved us countless hours of administrative work."
                         </p>
-                        <h4 class="mt-3 mb-1">Kevin Andrew</h4>
-                        <small class="text-muted">CEO of Company</small>
+                        <h4 class="mt-3 mb-1">Arun</h4>
+                        <small class="text-muted">CEO of Connecct Training </small>
                       </div>
                     </div>
                   </div>
@@ -431,10 +547,10 @@
                       </div>
                       <div class="col-10">
                         <p class="text-muted fs-5">
-                          "Tempora incidunt ut lao magnam aliquam quaerat voluptatem."
+                          "The long-distance study center management system has transformed our operations. From efficient staff coordination to seamless student tracking, it has simplified every aspect of our work. It's a game-changer for remote education."
                         </p>
-                        <h4 class="mt-3 mb-1">Jessica Lee</h4>
-                        <small class="text-muted">Marketing Head</small>
+                        <h4 class="mt-3 mb-1">Helina</h4>
+                        <small class="text-muted">MD of Jeno Study Center</small>
                       </div>
                     </div>
                   </div>
@@ -446,10 +562,11 @@
                       </div>
                       <div class="col-10">
                         <p class="text-muted fs-5">
-                          "Eius modi tempora incidunt ut labore et dolore magnam aliquam."
+                          "The ERP system has been a transformative tool for our organization. It integrates trainee management, internship tracking, and employee coordination into one seamless platform. 
+      Tracking trainee progress, assigning internship projects, and managing staff schedules has never been easier. The system’s ability to generate detailed reports has greatly improved decision-making and operational efficiency."
                         </p>
-                        <h4 class="mt-3 mb-1">Michael Smith</h4>
-                        <small class="text-muted">CTO at TechCorp</small>
+                        <h4 class="mt-3 mb-1">Ragupathi</h4>
+                        <small class="text-muted">MD at Roriri Software</small>
                       </div>
                     </div>
                   </div>
@@ -492,7 +609,7 @@
     <!-- testimonial ends here -->
 
     <!-- blog section starts -->
-    <section class="blog mt-5 pb-5" id="blog">
+    <!-- <section class="blog mt-5 pb-5" id="blog">
       <div class="heading text-center pt-5">
         <small>Latest News</small>
         <h3>Blog & Articles</h3>
@@ -562,7 +679,7 @@
           </div>
         </div>
         <!-- here we will make modals if Read more link is clicked the modal will popup -->
-        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               
@@ -778,8 +895,8 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </div> -->
+    <!-- </section> --> 
     <!-- blog section ends here -->
 
     <!-- contact section starts -->
@@ -803,7 +920,7 @@
               <i class="bi bi-telephone-fill"></i>
             </div>
             <div class="col-11">
-              <p>+91 9894688091</p>
+              <p><button class="border-0" onclick="window.open('https://wa.me/9894688091?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.', '_blank')">+91 9894688091</button></p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -823,41 +940,46 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+        <div class="col-md-5 col-10 mt-3 mt-md-0" id="contect_div" data-aos="slide-left">
           <div class="contact-form">
+            <!-- Name Input -->
             <div class="mb-3">
               <input
                 type="text"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="nameInput"
                 placeholder="Name"
               />
             </div>
+            <!-- Email Input -->
             <div class="mb-3">
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="emailInput"
                 placeholder="E-mail"
               />
             </div>
+            <!-- Mobile Input -->
             <div class="mb-3">
               <input
                 type="text"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="mobileInput"
                 placeholder="Mobile No."
               />
             </div>
+            <!-- Message Input -->
             <div class="mb-3">
               <textarea
                 class="form-control"
-                id="exampleFormControlTextarea1"
+                id="messageInput"
                 placeholder="Message"
                 rows="5"
               ></textarea>
             </div>
-            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <!-- Submit Button -->
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="storeFormData()">
               Submit
             </button>
           </div>
@@ -887,24 +1009,26 @@
         <div class="vr"></div>
         <a href="#portfolio">Portfolio</a>
         <div class="vr"></div>
-        <a href="#blog">Blog</a>
+        <!-- <a href="#blog">Blog</a> -->
         <div class="vr"></div>
         <a href="#contact">Contact</a>
       </div>
       <div class="social-links mt-5" data-aos="fade-up">
-        <button href="" class="rounded-pill dribble">
+        <!-- <button href="" class="rounded-pill dribble">
           <i class="bi bi-dribbble"></i>
-        </button>
-        <button href="" class="rounded-pill whatsapp">
+        </button> -->
+        <button 
+           class="rounded-pill whatsapp" 
+          onclick="window.open('https://wa.me/9894688091?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.', '_blank')">
           <i class="bi bi-whatsapp"></i>
-        </button>
-        <button href="" class="rounded-pill behance">
+          </button>
+        <!-- <button href="" class="rounded-pill behance">
           <i class="bi bi-behance"></i>
-        </button>
+        </button> -->
       </div>
       <hr class="text-muted my-4" />
 
-      <p>Copyright 2022 Portfolio | All Rights Reserved.</p>
+      <p>Copyright Vasanth Portfolio | All Rights Reserved.</p>
     </footer>
     <!-- footer section ends here -->
 
@@ -915,8 +1039,58 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Include SweetAlert Library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- AOS library javascript link  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script>
+      // Function to store form data in LocalStorage
+      function storeFormData() {
+        // Get form data
+        const name = document.getElementById('nameInput').value;
+        const email = document.getElementById('emailInput').value;
+        const mobile = document.getElementById('mobileInput').value;
+        const message = document.getElementById('messageInput').value;
+    
+        // Validate data
+        if (!name || !email || !mobile || !message) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Please fill in all fields!',
+          });
+          return;
+        }
+    
+        // Create a form object
+        const formData = {
+          name,
+          email,
+          mobile,
+          message,
+        };
+    
+        // Store data in LocalStorage
+        localStorage.setItem('contactFormData', JSON.stringify(formData));
+    
+        // Show success message using SweetAlert
+        Swal.fire({
+          icon: 'success',
+          title: 'Submitted!',
+          text: 'Your data has been saved locally.',
+        });
+    
+        // Reset input fields
+        document.getElementById('nameInput').value = '';
+        document.getElementById('emailInput').value = '';
+        document.getElementById('mobileInput').value = '';
+        document.getElementById('messageInput').value = '';
+      }
+    </script>
+
     <script>
       // initializing AOS library
       AOS.init({
